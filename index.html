@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil TKJ - SMKN 1 Nglegok</title>
+    <!-- Menggunakan Tailwind CSS untuk tampilan modern & responsif -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome untuk Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans scroll-smooth">
+
+    <!-- NAVBAR -->
+    <nav class="bg-blue-950 text-white sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-wider flex items-center gap-2">
+                <i class="fas fa-network-wired text-cyan-400"></i> TKJ SMKN 1 NGLEGOK
+            </a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#beranda" class="hover:text-cyan-400 transition">Beranda</a>
+                <a href="#tentang" class="hover:text-cyan-400 transition">Tentang</a>
+                <a href="#kompetensi" class="hover:text-cyan-400 transition">Kompetensi</a>
+                <a href="#peluang" class="hover:text-cyan-400 transition">Peluang Kerja</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION (BERANDA) -->
+    <header id="beranda" class="bg-gradient-to-r from-blue-950 to-cyan-900 text-white py-24 px-6 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Teknik Komputer & Jaringan</h1>
+            <p class="text-lg md:text-xl text-gray-300 mb-8">Membentuk Generasi Profesional, Kreatif, dan Siap Kerja di Era Digital.</p>
+            <a href="#tentang" class="bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-6 py-3 rounded-lg shadow-lg transition">
+                Jelajahi Profil
+            </a>
+        </div>
+    </header>
+
+    <!-- TENTANG JURUSAN -->
+    <section id="tentang" class="py-20 px-6 container mx-auto max-w-5xl">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-blue-950">Tentang TKJ</h2>
+            <div class="h-1 w-20 bg-cyan-500 mx-auto mt-2"></div>
+        </div>
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+            <div>
+                <p class="text-gray-600 leading-relaxed mb-4">
+                    Kompetensi Keahlian **Teknik Komputer dan Jaringan (TKJ)** di SMKN 1 Nglegok merupakan salah satu jurusan favorit yang membekali siswa dengan keterampilan di bidang instalasi jaringan, administrasi server, perakitan komputer, hingga keamanan jaringan (*cyber security*).
+                </p>
+                <p class="text-gray-600 leading-relaxed">
+                    Dengan dukungan fasilitas laboratorium yang memadai dan kurikulum yang diselaraskan dengan kebutuhan industri, kami siap mencetak teknisi jaringan yang andal.
+                </p>
+            </div>
+            <div class="bg-blue-950 text-white p-8 rounded-2xl shadow-xl">
+                <h3 class="text-xl font-bold mb-4 text-cyan-400"><i class="fas fa-bullseye mr-2"></i> Visi & Misi</h3>
+                <ul class="space-y-3 text-sm text-gray-300">
+                    <li><i class="fas fa-check text-cyan-400 mr-2"></i> Menghasilkan lulusan yang bertakwa, kompeten, dan berdaya saing global.</li>
+                    <li><i class="fas fa-check text-cyan-400 mr-2"></i> Menyelenggarakan pembelajaran berbasis proyek (*Project Based Learning*).</li>
+                    <li><i class="fas fa-check text-cyan-400 mr-2"></i> Menjalin kerja sama erat dengan Dunia Usaha dan Dunia Industri (DUDI).</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- KOMPETENSI KEAHLIAN -->
+    <section id="kompetensi" class="bg-gray-100 py-20 px-6">
+        <div class="container mx-auto max-w-5xl">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-blue-950">Apa yang Dipelajari?</h2>
+                <div class="h-1 w-20 bg-cyan-500 mx-auto mt-2"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition text-center">
+                    <div class="text-cyan-500 text-4xl mb-4"><i class="fas fa-laptop-code"></i></div>
+                    <h3 class="font-bold text-lg mb-2">Hardware & OS</h3>
+                    <p class="text-gray-600 text-sm">Perakitan PC, instalasi sistem operasi (Windows/Linux), dan *troubleshooting* perangkat keras.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition text-center">
+                    <div class="text-cyan-500 text-4xl mb-4"><i class="fas fa-network-wired"></i></div>
+                    <h3 class="font-bold text-lg mb-2">Jaringan Komputer</h3>
+                    <p class="text-gray-600 text-sm">Perancangan LAN/WAN, konfigurasi router (MikroTik/Cisco), switching, dan jaringan nirkabel.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition text-center">
+                    <div class="text-cyan-500 text-4xl mb-4"><i class="fas fa-server"></i></div>
+                    <h3 class="font-bold text-lg mb-2">Administrasi Server</h3>
+                    <p class="text-gray-600 text-sm">Pengelolaan server jaringan (Web Server, DNS, FTP, Mail Server) berbasis Linux dan Cloud.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PELUANG KERJA -->
+    <section id="peluang" class="py-20 px-6 container mx-auto max-w-5xl">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-blue-950">Prospek Kerja Lulusan</h2>
+            <div class="h-1 w-20 bg-cyan-500 mx-auto mt-2"></div>
+        </div>
+        <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="p-4 border border-gray-200 rounded-lg bg-white shadow-sm">
+                <i class="fas fa-user-cog text-2xl text-blue-950 mb-2"></i>
+                <p class="font-semibold text-gray-700">Network Engineer</p>
+            </div>
+            <div class="p-4 border border-gray-200 rounded-lg bg-white shadow-sm">
+                <i class="fas fa-tools text-2xl text-blue-950 mb-2"></i>
+                <p class="font-semibold text-gray-700">IT Support / Technical</p>
+            </div>
+            <div class="p-4 border border-gray-200 rounded-lg bg-white shadow-sm">
+                <i class="fas fa-database text-2xl text-blue-950 mb-2"></i>
+                <p class="font-semibold text-gray-700">Server Administrator</p>
+            </div>
+            <div class="p-4 border border-gray-200 rounded-lg bg-white shadow-sm">
+                <i class="fas fa-user-shield text-2xl text-blue-950 mb-2"></i>
+                <p class="font-semibold text-gray-700">Cyber Security Staff</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-blue-950 text-white py-8 px-6 text-center text-sm border-t border-cyan-900">
+        <p>&copy; 2026 TKJ SMKN 1 Nglegok. All rights reserved.</p>
+        <p class="text-gray-400 mt-1">Dibuat untuk keperluan profil jurusan & portofolio GitHub.</p>
+    </footer>
+
+</body>
+</html>
